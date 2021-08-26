@@ -1,0 +1,143 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+  background:black;
+  color: white;
+  font-size: 20px;
+}
+
+body {
+  font-family: garamond, arial, helvetika;
+  margin-right: 30px;
+  max-width: 500px;
+  min-width: 500px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  color: orange;
+}
+
+blockquote {
+  font-weight: bold;
+  color: orange;
+  font-size: 23px;
+}
+
+h2, h4 {
+  color: orange;
+}
+
+img {
+  height: 400px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption  {
+  color: white;
+  font-size: 14px;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
+a {
+  color: rgba(137, 196, 244, 1);
+  
+}
+
+a:hover {
+  color: orange;
+}
+
+table {
+  border: solid 1px;
+  text-align: center;
+  width: 470px;
+  border-collapse: collapse;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+th, td {
+  border: solid 1px orange;
+  font-size: 17px;
+  line-height: 110%;
+}
+
+th {
+  background: rgba(250, 190, 88, 1);
+  font-weight: bold;
+}
+
+li {
+list-style: disc outside none;
+display: list-item;
+margin-left: 60px;
+  list-style-type: square;
+  line-height: 130%;
+}
+
+footer {
+  text-align: center;
+}
+
+
+
+
+
